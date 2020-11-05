@@ -1,5 +1,7 @@
 # property-rentals-client
+Frontend to be used with [property-rentals-api](https://github.com/bsl333/property-rentals-api)
 
+Built using the Vue-cli and Vuetify
 ## Project setup
 ```
 npm install
@@ -22,3 +24,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
