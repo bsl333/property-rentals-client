@@ -31,7 +31,7 @@
               <li>bathrooms: {{ rentalDetails.numBathroom }}</li>
             </ul>
           </div>
-          <div class="fees mt-5" v-if="fees">
+          <div class="fees mt-5" v-if="fees.length">
             <h4>Fees</h4>
             <ul class="list mt-1">
               <li v-for="(fee, i) in fees" :key="i">
@@ -82,7 +82,7 @@ export default {
     },
     fees() {
       if (!this.rentalDetails.fees) {
-        return false;
+        return [];
       }
       const fees = JSON.parse(this.rentalDetails.fees);
       return fees;
