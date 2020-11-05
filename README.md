@@ -1,6 +1,9 @@
 # property-rentals-client
 Frontend to be used with [property-rentals-api](https://github.com/bsl333/property-rentals-api)
 
+**Pull and follow the readme steps in the server repo before completing below steps**
+
+
 Built using the Vue-cli and Vuetify
 ## Project setup
 ```
